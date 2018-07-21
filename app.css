@@ -1,0 +1,788 @@
+.navbar {
+    border-bottom: #079ef58e 0.20em solid;
+}
+
+a.nav-link {
+    font-size: 1.20em;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.full-width-panel-index-1 {
+    height: 46.50em;
+    width: 70em;
+    background: #079ef58e;
+    padding: 0.50em;
+    border-radius: 0.12em;
+}
+
+.panel-top-padding {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.header-text-1>h1 {
+    font-size: 4em;
+    text-align: center;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+.ski-lodge-wallpaper-text>h2 {
+    position: relative;
+    z-index: 1005;
+    margin-top: -20em;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.full-width-bg-2 {
+    background: #03111a3d;
+    /* Full height */
+    border-radius: 0.12em;
+    height: 48.50em;
+    width: 32em;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+}
+
+.schedule-box {
+    position: relative;
+    padding: 0.50em;
+    box-sizing: border-box;
+    z-index: 1000;
+    width: 35em;
+    height: 14em;
+    padding: 0.50em;
+    background-color: #03111a3d;
+    border-radius: 0.13em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.schedule-box-pos {
+    padding: 1em;
+}
+
+.schedule-header-text>h3 {
+    text-align: center;
+    color: rgb(167, 230, 255);
+}
+
+.schedule-divider {
+    width: 100%;
+    border: #fff 0.09em solid;
+}
+
+.schedule-box-list-pos>ul li {
+    list-style: none;
+    margin-top: 0.50em;
+    margin-left: -2em;
+}
+
+strong.strong-text-color {
+    color: whitesmoke
+}
+
+.reservation-schedule-box {
+    position: relative;
+    padding: 0.50em;
+    box-sizing: border-box;
+    z-index: 1000;
+    width: 30em;
+    height: 14em;
+    padding: 0.50em;
+    background-color: #21a7faf3;
+    border-radius: 0.13em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.reservation-schedule-box-pos {
+    margin-left: 38em;
+    margin-top: -15em;
+}
+
+.reservation-schedule-header-text>h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.reservation-schedule-list>ul li {
+    list-style: none;
+    margin-top: 0.50em;
+    margin-left: -2.50em;
+}
+
+img.ski-lodge-wallpaper-resize {
+    height: 40em;
+    width: 70em;
+}
+
+.tour-guide-header>h1 {
+    text-align: center;
+    color: rgb(36, 167, 219);
+    text-decoration: underline;
+}
+
+.tour-guide-list>ul li {
+    list-style: none;
+    display: inline;
+    padding: 0.50em;
+}
+
+.tour-guide-list>ul {
+    margin-left: 1em;
+}
+
+.rounded-img-blue-border {
+    border: 0.13em rgb(5, 80, 150) solid;
+}
+
+.shoutout-box {
+    width: 22em;
+    background: #8c9ba38e;
+    padding: 0.50em;
+    border-radius: 0.12em;
+    padding: 1em;
+}
+
+.shoutout-box-pos {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+/*large screens */
+
+@media screen and (min-width: 1200px) {
+    .full-width-bg-2-top-padding {
+        padding-top: 0.50em;
+    }
+    .shoutout-box {
+        height: 42.80em;
+        width: 22em;
+        background: #8c9ba38e;
+        padding: 0.50em;
+        border-radius: 0.12em;
+    }
+    .shoutout-header-text>h4 {
+        color: #2049638f;
+    }
+    .shoutout-messages>ul {
+        height: 12em;
+        width: 21em;
+        background: #b4b4b4d3;
+        overflow-y: auto;
+        border-radius: 0.10em;
+    }
+    .shoutout-messages>ul>li {
+        color: white;
+    }
+}
+
+/* Message List Container Styling */
+
+ul.messageListContainer li {
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px;
+}
+
+img.img-strict-height {
+    width: 152px;
+    height: 157px;
+    object-fit: cover;
+}
+
+div.tour-guide-info {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+div.footer-elements {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.caption {
+    display: block;
+}
+
+.footer {
+    background: #0d75b63d;
+    /* Full height */
+    height: 20em;
+    min-height: 10em;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    border-top: #a7a2a2 0.10em solid;
+}
+
+.top-footer-padding {
+    padding-top: 0.50em;
+}
+
+.sponsor-header-title>h3 {
+    text-align: center;
+    font-weight: 400;
+    color: #3c3e89;
+}
+
+/*    Contact Page Styles      */
+
+.contact-header>h1 {
+    text-align: center;
+    margin-top: 0.20em;
+    color: #25353f98
+}
+
+.contact-info-box-1 {
+    padding: 0.50em;
+    height: 17em;
+    width: 17em;
+    background-color: #1d80bda9;
+    border-radius: 0.20em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+div.contact-info-box-content {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.contact-info-text-color>p {
+    color: whitesmoke;
+}
+
+h4.phone-text-color {
+    color: #fffdfd;
+}
+
+.contact-info-box-2 {
+    padding: 0.50em;
+    height: 17em;
+    width: 17em;
+    background-color: #1dbd45a9;
+    border-radius: 0.20em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.contact-info-box-3 {
+    padding: 0.50em;
+    height: 17em;
+    width: 17em;
+    background-color: #666966a9;
+    border-radius: 0.20em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.full-width-bg-contact-footer {
+    background: #14537a3d;
+    /* Full height */
+    height: 100vh;
+    min-height: 10em;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    border-top: #a7a2a2 0.10em solid;
+}
+
+.contact-forum-title-header>h2 {
+    text-align: center;
+    color: rgb(136, 135, 135);
+}
+
+video.ski-lodge-contact-video {
+    border-radius: 0.22em;
+    border: 0.20em #079ef58e solid;
+}
+
+.animated-btn-catch-phrase>h5 {
+    color: green;
+    text-align: center;
+}
+
+.main-attraction-header>h4 {
+    text-align: center;
+    color: rgb(25, 25, 44);
+}
+
+/*About Styles*/
+
+* {
+    box-sizing: border-box;
+}
+
+.about-body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.video-hr {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.wrap {
+    max-width: 960px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+    text-align: center;
+}
+
+.fullscreen-video-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.fullscreen-video-wrap video {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #38363627;
+    opacity: 0.80;
+}
+
+.header-content {
+    z-index: 2;
+    margin-top: 20%;
+}
+
+.active-nav-link {
+    text-decoration: underline;
+    font-weight: 500;
+    color: darkcyan;
+}
+
+/* Mobile Styles */
+
+@media (max-width: 576px) {
+
+    .full-width-panel-index-1 {
+        height: 40em;
+        width: 21em;
+        background: #079ef58e;
+        padding: 0.50em;
+        border-radius: 0.12em;
+    }
+    
+    .panel-top-padding {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    
+    .header-text-1>h1 {
+        font-size: 4em;
+        text-align: center;
+        font-weight: lighter;
+        color: whitesmoke;
+    }
+    
+    .ski-lodge-wallpaper-text>h2 {
+        position: relative;
+        z-index: 1005;
+        margin-top: -9em;
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+        
+    .schedule-box {
+        position: relative;
+        box-sizing: border-box;
+        z-index: 1000;
+        width: 19em;
+        height: 17em;
+        padding: 0.50em;
+        background-color: #03111a3d;
+        border-radius: 0.13em;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+    
+    .schedule-box-pos {
+        margin-top: 12em;
+    }
+    
+    .schedule-header-text>h3 {
+        text-align: center;
+        color: rgb(167, 230, 255);
+    }
+    
+    .schedule-divider {
+        width: 100%;
+        border: #fff 0.09em solid;
+    }
+    
+    .schedule-box-list-pos>ul li {
+        list-style: none;
+        margin-top: 0.50em;
+        margin-left: -2em;
+    }
+    
+    strong.strong-text-color {
+        color: whitesmoke
+    }
+    
+    .reservation-schedule-box {
+        position: relative;
+        padding: 0.50em;
+        box-sizing: border-box;
+        z-index: 1000;
+        width: 19em;
+        height: 19em;
+        padding: 0.50em;
+        background-color: #21a7faf3;
+        border-radius: 0.13em;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+    
+    .reservation-schedule-box-pos {
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    
+    .reservation-schedule-header-text>h3 {
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    
+    .reservation-schedule-list>ul li {
+        list-style: none;
+        margin-top: 0.50em;
+        margin-left: -2.50em;
+    }
+    
+    img.ski-lodge-wallpaper-resize {
+        height: 19em;
+        width: 40em;
+    }
+    
+    .full-width-bg-2-top-padding {
+        padding-top: 1em;
+    }
+
+    .full-width-bg-2 {
+        background: #03111a3d;
+        /* Full height */
+        border-radius: 0.12em;
+        height: 100%;
+        width: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1em;
+    }
+    .tour-guide-header>h1 {
+        text-align: center;
+        color: rgb(36, 167, 219);
+        text-decoration: underline;
+    }
+    
+    .tour-guide-list>ul li {
+        list-style: none;
+        display: inline;
+        padding: 0.50em;
+    }
+    
+    .tour-guide-list>ul {
+        margin-left: 1em;
+    }
+    
+    .rounded-img-blue-border {
+        border: 0.13em rgb(5, 80, 150) solid;
+    }
+    
+    .shoutout-box {
+        width: 100%;
+        height: 100%;
+        background: #8c9ba38e;
+        padding: 0.50em;
+        padding-bottom: 0em;
+        border-radius: 0.12em;
+        padding: 1em;
+    }
+    
+    .shoutout-box-pos {
+        margin-top: 39em;
+        margin-left: 1em;
+    }
+    .shoutout-messages {
+        margin-left: -1.00em;
+        width: 19.90em;
+        height: 26em;
+        background-color: #b5bcc098;
+        border-bottom-left-radius: 0.10em;
+        border-bottom-right-radius: 0.10em;
+        overflow-y: auto;
+    }
+
+    /* Message List Container Styling */
+
+ul.messageListContainer li {
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px;
+}
+
+img.img-strict-height {
+    width: 152px;
+    height: 157px;
+    object-fit: cover;
+}
+
+div.tour-guide-info {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+div.footer-elements {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-left: 3.60em;
+}
+
+.caption {
+    display: block;
+}
+
+.footer {
+    background: #0d75b63d;
+    /* Full height */
+    height: 100%;
+    min-height: 10em;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    border-top: #a7a2a2 0.10em solid;
+}
+
+.top-footer-padding {
+    padding-top: 0.50em;
+}
+
+.sponsor-header-title>h3 {
+    text-align: center;
+    font-weight: 400;
+    color: #3c3e89;
+}
+
+/*    Contact Page Styles      */
+
+.contact-header>h1 {
+    text-align: center;
+    margin-top: 0.20em;
+    color: #25353f98
+}
+
+.contact-info-box-1 {
+    padding: 0.50em;
+    height: 17em;
+    width: 100%;
+    background-color: #1d80bda9;
+    border-radius: 0.20em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+div.contact-info-box-content {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.contact-info-text-color>p {
+    color: whitesmoke;
+}
+
+h4.phone-text-color {
+    color: #fffdfd;
+}
+
+.contact-info-box-2 {
+    padding: 0.50em;
+    height: 17em;
+    width: 100%;
+    background-color: #1dbd45a9;
+    border-radius: 0.20em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.contact-info-box-3 {
+    padding: 0.50em;
+    height: 17em;
+    width: 100%;
+    background-color: #666966a9;
+    border-radius: 0.20em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.full-width-bg-contact-footer {
+    background: #14537a3d;
+    /* Full height */
+    height: 100vh;
+    min-height: 10em;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    border-top: #a7a2a2 0.10em solid;
+}
+
+.contact-forum-title-header>h2 {
+    text-align: center;
+    color: rgb(136, 135, 135);
+}
+
+video.ski-lodge-contact-video {
+    border-radius: 0.22em;
+    border: 0.20em #079ef58e solid;
+}
+
+.animated-btn-catch-phrase>h5 {
+    color: green;
+    text-align: center;
+}
+
+.main-attraction-header>h4 {
+    text-align: center;
+    color: rgb(25, 25, 44);
+}
+
+/*About Styles*/
+
+* {
+    box-sizing: border-box;
+}
+
+.about-body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.video-hr {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.wrap {
+    max-width: 960px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+    text-align: center;
+}
+
+.fullscreen-video-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.fullscreen-video-wrap video {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #38363627;
+    opacity: 0.80;
+}
+
+.header-content {
+    z-index: 2;
+    margin-top: 20%;
+}
+
+.active-nav-link {
+    text-decoration: underline;
+    font-weight: 500;
+    color: darkcyan;
+}
+    
+}
